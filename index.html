@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+  </head>
+  <body class="bg-dark">
+    <section id="content" class="container pt-5 text-white">
+      <div class="d-flex g-0 gap-3">
+        <div class="col-7">
+          <div class="mb-5">
+            <p>Video using youtube embed id. No video quality setting available</p>
+            <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="bTqVqk7FSmY"></div>
+          </div>
+
+          <div class="mb-5">
+            <p>Video from plyr.io demo source. Use different video quality source. Sideo quality setting available</p>
+            <video controls crossorigin playsinline data-poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" id="player1">
+              <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" size="576" />
+              <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-720p.mp4" type="video/mp4" size="720" />
+              <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4" type="video/mp4" size="1080" />
+
+              <track kind="captions" label="English" srclang="en" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt" default />
+              <track kind="captions" label="Français" srclang="fr" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt" />
+
+              <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" download>Download</a>
+            </video>
+          </div>
+          <div class="mb-5">
+            <p>Video using youtube embed iframe. all youtube default settings available</p>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/K87aFjB7Ff0?si=tCahSTb2-PyP1XCK"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-5 d-flex flex-column gap-3">
+          <button type="button" class="d-flex rounded-3 p-2 bg-transparent border-0 text-white" data-plyr-embed-id="PAjD4GFi3Ko">
+            <div class="list-thumbnail bg-black overflow-hidden rounded-3 col-4 me-3 d-flex align-items-center justify-content-center h-100">
+              <img class="img-fluid" src="https://i.ytimg.com/vi/PAjD4GFi3Ko/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAZqosV2o6JbgmnjuB9OfEpgIsRqA" alt="" />
+            </div>
+            <div class="col text-start text-secondary d-flex flex-column">
+              <span class="list-title fw-bolder text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, optio?</span>
+              <a href="#" class="fw-medium text-decoration-none text-secondary">Chanel Name</a>
+              <span>1k views . 1 day ago</span>
+            </div>
+          </button>
+          <button type="button" class="d-flex rounded-3 p-2 bg-transparent border-0 text-white" data-plyr-embed-id="rmo_pYnQyq4">
+            <div class="list-thumbnail bg-black overflow-hidden rounded-3 col-4 me-3 d-flex align-items-center justify-content-center h-100">
+              <img class="img-fluid" src="https://i.ytimg.com/vi/rmo_pYnQyq4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAV27uZrGwpjngLholDqF0S2A7SMQ" alt="" />
+            </div>
+            <div class="col text-start text-secondary d-flex flex-column">
+              <span class="list-title fw-bolder text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, optio?</span>
+              <a href="#" class="fw-medium text-decoration-none text-secondary">Chanel Name</a>
+              <span>1k views . 1 day ago</span>
+            </div>
+          </button>
+          <button type="button" class="d-flex rounded-3 p-2 bg-transparent border-0 text-white" data-plyr-embed-id="6u_j4d9D4Rc">
+            <div class="list-thumbnail bg-black overflow-hidden rounded-3 col-4 me-3 d-flex align-items-center justify-content-center h-100">
+              <img class="img-fluid" src="https://i.ytimg.com/vi/6u_j4d9D4Rc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCIYL0l9ddKEnGkftpuqVIkYauQwg" alt="" />
+            </div>
+            <div class="col text-start text-secondary d-flex flex-column">
+              <span class="list-title fw-bolder text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, optio?</span>
+              <a href="#" class="fw-medium text-decoration-none text-secondary">Chanel Name</a>
+              <span>1k views . 1 day ago</span>
+            </div>
+          </button>
+          <button type="button" class="d-flex rounded-3 p-2 bg-transparent border-0 text-white" data-plyr-embed-id="-dj6jJrAMW8">
+            <div class="list-thumbnail bg-black overflow-hidden rounded-3 col-4 me-3 d-flex align-items-center justify-content-center h-100">
+              <img class="img-fluid" src="https://i.ytimg.com/vi/-dj6jJrAMW8/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAFAnkLvWXqrYFgGbnBIdUr-I8LdA" alt="" />
+            </div>
+            <div class="col text-start text-secondary d-flex flex-column">
+              <span class="list-title fw-bolder text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, optio?</span>
+              <a href="#" class="fw-medium text-decoration-none text-secondary">Chanel Name</a>
+              <span>1k views . 1 day ago</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Wait for the DOM to be ready
+      document.addEventListener("DOMContentLoaded", function () {
+        // Initialize Plyr for the player element
+        const playerEl = new Plyr("#player", {
+          title: "Contoh title",
+          controls: ["play-large", "play", "progress", "current-time", "mute", "volume", "captions", "settings", "pip", "airplay", "fullscreen"],
+          settings: ["captions", "quality", "speed", "loop"],
+          quality: { default: 480, options: [1440, 1080, 720, 480, 360, 240] },
+          autoplay: false,
+        });
+        const playerEl1 = new Plyr("#player1", {
+          title: "Contoh title",
+          controls: ["play-large", "play", "progress", "current-time", "mute", "volume", "captions", "settings", "pip", "airplay", "fullscreen"],
+          settings: ["captions", "quality", "speed", "loop"],
+          quality: { default: 480, options: [1440, 1080, 720, 480, 360, 240] },
+          autoplay: false,
+        });
+
+        // Get all buttons with the data-plyr-embed-id attribute
+        const buttons = document.querySelectorAll("[data-plyr-embed-id]");
+
+        // Add click event listeners to all buttons
+        buttons.forEach((button) => {
+          button.addEventListener("click", function () {
+            // Get the data-plyr-embed-id from the clicked button
+            const embedId = button.getAttribute("data-plyr-embed-id");
+
+            // Change the video source using Plyr's API
+            playerEl.source = {
+              type: "video",
+              sources: [
+                {
+                  src: embedId,
+                  provider: "youtube",
+                },
+              ],
+            };
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

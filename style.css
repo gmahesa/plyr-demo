@@ -1,0 +1,14 @@
+.plyr {
+  border-radius: 16px;
+}
+.list-thumbnail {
+  aspect-ratio: 16/9;
+  max-height: 100px;
+}
+.list-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
